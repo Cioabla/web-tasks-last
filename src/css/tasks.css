@@ -1,0 +1,21 @@
+.tasks-list {
+    padding: 0 10px;
+}
+
+.table-header div {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.table-column {
+    padding: 5px 0;
+}
+
+.table-column.odd {
+    background: #d1d1d1;
+}
+
+.btn-sm {
+    padding: 2px 5px !important;
+}

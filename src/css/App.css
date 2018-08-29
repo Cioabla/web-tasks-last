@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.layout {
+  padding: 0 !important;
+}
+
+.card {
+  width:400px;
+  margin: 5% auto 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.menu {
+  background: #007bff;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 10px 10px;
+  height: 100%;
+}
+.menu-item a:hover, .menu-item a:active, .menu-item a:visited {
+  text-decoration: none;
+  color: white;
+  background: #0069d9;
+}
+
+.add-new {
+  margin: 10px;
+}
+
+.content {
+  padding: 10px;
+}
